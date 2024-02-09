@@ -7,6 +7,7 @@ disable=
       R0903, # too-few-public-methods
       W0511, # fixme
       W0719, # broad-exception-raised
+      R0801, # duplicate-code
 
 init-hook='import sys, os; sys.path.append(os.getcwd())'
 

@@ -4,7 +4,7 @@ from src.errors.error_types.http_unprocessable_entity import (
 )
 
 
-def tag_creator_validator(request: any) -> None:
+def qrcode_creator_validator(request: any) -> None:
     body_validator = Validator(
         {
             "code": {
