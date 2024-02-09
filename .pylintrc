@@ -5,6 +5,8 @@ disable=
       C0116, # missing-function-docstring
       W0703, # Catching to general exception Exception
       R0903, # too-few-public-methods
+      W0511, # fixme
+      W0719, # broad-exception-raised
 
 init-hook='import sys, os; sys.path.append(os.getcwd())'
 
